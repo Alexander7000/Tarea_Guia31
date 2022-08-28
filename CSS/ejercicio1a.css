@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document HS19011 */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+fichero {
+	background-color:#303845;
+	color:white;	
+	font-family:Comic Sans, Comic Sans MS, Arial;
+}
+
+ficha[id]::before {
+	content:"Id: "attr(id)" Fecha: "attr(fechaingreso);
+	color:white;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	font-family:Arial;
+}
+
+ficha {
+	width:700px;
+	margin:10px auto;
+	padding:10px;
+	background-color:#3C4560; 
+	border-style:solid;
+   	border-color:#EABE3F;
+	font-size:1.4em;
+	display:block; 
+}
+
+nombre {
+	text-align:center;
+	display:inline;
+} 
+
+apellido {
+	text-align:center;
+	display:inline;
+}
+
+telefono {
+	display:block;
+}
+
+email {
+	display:block;
+}
+
+UrlWebPersonal {
+	display:block;
+}
+
+direccion {
+	display:block;
+}
