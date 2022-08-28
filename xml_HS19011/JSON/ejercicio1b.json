@@ -1,0 +1,48 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Eduardo",
+				"apellido": "Fuentes",
+				"direccion": "Calle de Los Andes, 46",
+				"telefono": {
+					"_esCelular": "False",
+					"__text": "22566598"
+				},
+				"email": "hs19011@ues.edu.sv",
+				"UrlWebPersonal": "http://xlm.hs19011.tpi",
+				"_id": "2",
+				"_fechaingreso": "25/08/2022"
+			},
+			{
+				"nombre": "Jose",
+				"apellido": "Cardoza",
+				"direccion": "Calle de Los Andes, 47",
+				"telefono": {
+					"_esCelular": "False",
+					"__text": "22368989"
+				},
+				"email": "GD19011@ues.edu.sv",
+				"UrlWebPersonal": "http://xlm.GD19011.tpi",
+				"dui": {
+					"_vencido": "True",
+					"__text": "01541515684"
+				},
+				"isss": "1563312",
+				"afp": {
+					"_sucursal": "Crecer",
+					"__text": "146985466615"
+				},
+				"_id": "3",
+				"_fechaingreso": "25/08/2022"
+			}
+		]
+	}
+}
